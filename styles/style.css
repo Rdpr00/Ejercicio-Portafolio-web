@@ -32,7 +32,7 @@ a {
 }
 
 .presentacion {
-    padding: 5% 51%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,7 +85,7 @@ a {
 .presentacion__enlaces__subtitulo {
     font-family: var(--fuente-krona);
     font-size: 1.5rem;
-    font-weight: 140;
+    font-weight: 400;
 }
 
 .presentacion_enlaces_link:hover{
@@ -145,12 +145,12 @@ a {
         justify-content: center;
     }
 
-    .presentacion {
+    .presentacion{
         flex-direction: column-reverse;
         padding: 5%;
     }
 
     .presentacion_contenido{
         width: auto;
-    }
+    } 
 }
